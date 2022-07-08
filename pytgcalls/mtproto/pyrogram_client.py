@@ -320,7 +320,7 @@ class PyrogramClient(BridgedClient):
                 JoinGroupCall(
                     call=chat_call,
                     params=DataJSON(data=json.dumps(json_join)),
-                    muted=False,
+                    muted=True,
                     join_as=join_as,
                     video_stopped=have_video,
                     invite_hash=invite_hash,
